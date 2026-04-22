@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extracurricular Activities</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f8f6ff, #ffffff);
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 30px;
+      color: #390548;
+    }
+
+    .container {
+      width: 85%;
+      margin: auto;
+    }
+
+    .activity {
+      display: flex;
+      align-items: center;
+      margin: 40px 0;
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .activity:hover {
+      transform: translateY(-5px);
+    }
+
+    .images {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 15px;
+    }
+
+    .images img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .content {
+      width: 60%;
+      padding: 25px;
+    }
+
+    .content h2 {
+      color: #520c56;
+      margin-bottom: 10px;
+    }
+
+    .content p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      .activity {
+        flex-direction: column;
+      }
+
+      .images, .content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Extracurricular Activities</h1>
+
+  <div class="container">
+
+    <!-- Activity 1 -->
+    <div class="activity">
+      <div class="images">
+        <img src="concert1.png" alt="Activity 1 Image">
+        <img src="concert2.png" alt="Activity 1 Image">
+      </div>
+      <div class="content">
+        <h2>Music Concert In MITAOE's NAKSHTRA.  </h2>
+        <p>Being a part of the music concert was a highly engaging and collaborative experience. I had the opportunity to work closely with a team, where I learned the importance of coordination, communication, and time management. From rehearsals to the final performance, every stage required teamwork and mutual support to ensure everything ran smoothly. This experience helped me understand how different roles come together to create a successful event. It also improved my confidence, adaptability, and ability to perform under pressure, making it a valuable learning experience beyond just music.</p>
+      </div>
+    </div>
+
+    <!-- Activity 2 -->
+    <div class="activity">
+      <div class="images">
+        <img src="kesariwada.png" alt="Activity 2 Image">
+        <img src="museum.png" alt="Activity 2 Image">
+        
+      </div>
+      <div class="content">
+        <h2>Field Visit</h2>
+        <p>As part of my Indian Knowledge System subject activity, I visited the Shri Wardha Museum in Pune. This field visit gave me an insightful understanding of India’s historical and cultural heritage. During the visit, I explored the life and contributions of Bal Gangadhar Tilak, gaining deeper knowledge about his role in India’s freedom movement and his impact on society. Observing the exhibits and learning through real artifacts made the experience much more engaging than classroom learning. This visit enhanced my curiosity about history and helped me connect theoretical knowledge with real-life understanding.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
