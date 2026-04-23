@@ -9,14 +9,17 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 15px 30px;
-    background: #e6d9f2;
+    background: #380439;
 }
 
 nav a {
     text-decoration: none;
     margin: 0 10px;
-    color: #26022d;
+    color: #efe5f1;
     font-weight: bold;
+}
+nav b {
+    color: #ddd;
 }
 
 .hero {
