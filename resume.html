@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESUME</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f8f6ff, #ffffff);
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 1px;
+      color: #390548;
+    }
+
+    .container {
+      width: 100%;
+      margin: auto;
+    }
+
+    .activity {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0;
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: transform 1s ease;
+    }
+
+    .activity:hover {
+      transform: translateY(-10px);
+    }
+
+    .images {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .images img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .content {
+      width: 60%;
+      padding: 25px;
+    }
+
+    .content h2 {
+      color: #520c56;
+      margin-bottom: 10px;
+    }
+
+    .content p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      .activity {
+        flex-direction: column;
+      }
+
+      .images, .content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+        <h1>Resume</h1>
+
+  <div class="container">
+
+    <!-- Activity 1 -->
+    <div class="activity">
+      <div class="images">
+        <img src="Resume.png" alt="Activity 1 Image">
+      </div>
+    </div>
+    </body>
+</html>
